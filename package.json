@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "npx bddgen && npx playwright test --grep \"@tag\"",
+    "test": "npx bddgen && npx playwright test --grep \"@test\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
