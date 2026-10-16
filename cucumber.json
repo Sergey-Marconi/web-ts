@@ -1,7 +1,12 @@
 {
   "default": {
+<<<<<<< HEAD
     "paths": ["tests/features/**/*.feature"],
     "require": ["tests/steps/**/*.ts"],
+=======
+    "paths": ["features/**/*.feature"],
+    "require": ["steps/**/*.ts", "hooks/**/*.ts"],
+>>>>>>> origin/main
     "requireModule": ["ts-node/register"],
     "format": ["html:cucumber-report.html"]
   }

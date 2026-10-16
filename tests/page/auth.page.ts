@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * Page Object страницы авторизации ВКонтакте
  * Содержит локаторы и методы для взаимодействия со страницей входа
  */
@@ -24,5 +25,15 @@ export class AuthPage {
 
     // Флаги активных элементов
     activeTab: 'input[name="login-view"]:checked + span',
+=======
+ * Page Object страницы авторизации
+ */
+export class AuthPage {
+  readonly selectors = {
+    btns: 'span.vkuiButton__in',
+    sliderLogin: 'input[name=login-view] + span',
+    inputPhoneField: 'input[name=phone], input[name=login]',
+    textInfo: 'div.vkc__StepInfo-module__body',
+>>>>>>> origin/main
   };
 }

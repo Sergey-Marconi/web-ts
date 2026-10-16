@@ -19,5 +19,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+<<<<<<< HEAD
   "include": ["tests", "playwright.config.ts", "eslint.config.js"]
+=======
+  "include": ["src"]
+>>>>>>> origin/main
 }
